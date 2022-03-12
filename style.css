@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    width:450px;
+}
+.container .box{
+    display:flex;
+}
+.box div{
+    width:100%;
+}
+select{
+    width:95%;
+    height:30px;
+    border:none;
+    background-color:#7868e6;
+    padding:0 1em;
+    outline:none;
+    font-size:1em;
+    cursor:pointer;
+}
+input{
+    width:95%;
+    height:30px;
+    font-size:1em;
+    background-color:#EEEEEE;
+    border:none;
+    outline:none;
+    padding:0 1em;
+}
