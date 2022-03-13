@@ -25,12 +25,14 @@ btn.addEventListener("click", () => {
     let currency1 = select[0].value;
     let currency2 = select[1].value;
     let value = num.value;
+    var message = document.getElementById("message");
 
     if (currency1 != currency2) {
         convert(currency1, currency2, value);
     }
     else {
-        alert("Lütfen Farklı Değerler Girin!");
+       message.classList = "alert alert-danger";
+       message.innerHTML = "Farklı Bir Değer Seçin!";
     }
 });
 

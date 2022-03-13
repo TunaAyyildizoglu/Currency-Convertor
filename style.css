@@ -8,6 +8,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
+    background-color:#1B1A17;
 }
 .container{
     width:450px;
@@ -37,3 +38,7 @@ input{
     outline:none;
     padding:0 1em;
 }
+.btn{
+    background-color:#05595B;
+}
+
